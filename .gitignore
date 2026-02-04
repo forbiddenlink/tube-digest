@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,40 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE and editor folders
+.history/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CI/CD tool caches
+.codacy/
+
+# Supabase local dev
+supabase/.temp/
+
+# AI coding assistant folders (skills can be reinstalled with: npx skills add)
+.agent/
+.agents/
+skills/
+.cline/
+.cursor/
+.junie/
+.gemini/
+.trae/
+.windsurf/
+.qoder/
+.roo/
+.goose/
+.neovate/
+.opencode/
+.openhands/
+.factory/
+.codex/
+.commandcode/
+.pi/
+.kilocode/
+.kiro/
+.zencoder/
